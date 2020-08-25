@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "corona-map-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/coronaMap/CoronaMapWebPart.js",
+          "manifest": "./src/webparts/coronaMap/CoronaMapWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": { 
+  },
+  "localizedResources": {
+    "CoronaMapWebPartStrings": "lib/webparts/coronaMap/loc/{locale}.js"
+  }
+}
